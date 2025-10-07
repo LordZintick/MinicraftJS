@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<category name="Materials" color="tan" index="0">
+    <recipe id="planks_recipe">
+        <ingredient count="1">Wood</ingredient>
+        <result count="4">Plank</result>
+    </recipe>
+
+    <recipe id="iron_ingot_recipe">
+        <ingredient count="1">Iron_Ore</ingredient>
+        <tile display="Furnace">FurnaceO</tile>
+        <result count="1">Iron_Ingot</result>
+    </recipe>
+
+    <recipe id="slimeium_ingot_recipe">
+        <ingredient count="1">Slimeium_Ore</ingredient>
+        <ingredient count="1">Slime</ingredient>
+        <tile display="Furnace">FurnaceO</tile>
+        <result count="1">Slimeium_Ingot</result>
+    </recipe>
+</category>
+
+
+
+<category name="Consumables" color="lime" index="1">
+    <recipe id="cactubread_recipe">
+        <ingredient count="10">Cactus</ingredient>
+        <result count="2">CactuBread</result>
+    </recipe>
+    
+    <recipe id="floral_cactubread_recipe">
+        <ingredient count="8">Cactus</ingredient>
+        <ingredient count="4">Cactus_Flower</ingredient>
+        <result count="2">Floral_CactuBread</result>
+    </recipe>
+
+    <recipe id="cactus_pod_recipe">
+        <ingredient count="5">Cactus</ingredient>
+        <ingredient count="2">Cactus_Flower</ingredient>
+        <result count="1">Cactus_Pod</result>
+    </recipe>
+
+    <recipe id="iron_acorn_recipe">
+        <ingredient count="2">Iron_Ingot</ingredient>
+        <ingredient count="1">Acorn</ingredient>
+        <tile display="Furnace">FurnaceO</tile>
+        <result count="1">Iron_Acorn</result>
+    </recipe>
+
+    <recipe id="slimeium_acorn_recipe">
+        <ingredient count="2">Slimeium_Ingot</ingredient>
+        <ingredient count="1">Acorn</ingredient>
+        <tile display="Furnace">FurnaceO</tile>
+        <result count="1">Slimeium_Acorn</result>
+    </recipe>
+</category>
+
+
+
+<category name="Tools" color="pink" index="2">
+    <recipe id="wood_pickaxe_recipe">
+        <ingredient count="1">Wood</ingredient>
+        <ingredient count="6">Plank</ingredient>
+        <tile display="Workbench">WorkbenchO</tile>
+        <result count="1" display="Wooden_PickaXe">Wooden_Pickaxe</result>
+    </recipe>
+
+    <recipe id="wood_axe_recipe">
+        <ingredient count="1">Wood</ingredient>
+        <ingredient count="4">Plank</ingredient>
+        <tile display="Workbench">WorkbenchO</tile>
+        <result count="1" display="Wooden_AXe">Wooden_Axe</result>
+    </recipe>
+    
+    <recipe id="stone_pickaxe_recipe">
+        <ingredient count="1">Wood</ingredient>
+        <ingredient count="6">Stone</ingredient>
+        <tile display="Workbench">WorkbenchO</tile>
+        <result count="1" display="Stone_PickaXe">Stone_Pickaxe</result>
+    </recipe>
+
+    <recipe id="stone_axe_recipe">
+        <ingredient count="1">Wood</ingredient>
+        <ingredient count="4">Stone</ingredient>
+        <tile display="Workbench">WorkbenchO</tile>
+        <result count="1" display="Stone_AXe">Stone_Axe</result>
+    </recipe>
+
+    <recipe id="iron_pickaxe_recipe">
+        <ingredient count="1">Wood</ingredient>
+        <ingredient count="6">Iron_Ingot</ingredient>
+        <tile display="Anvil">AnvilO</tile>
+        <result count="1" display="Iron_PickaXe">Iron_Pickaxe</result>
+    </recipe>
+    
+    <recipe id="iron_axe_recipe">
+        <ingredient count="1">Wood</ingredient>
+        <ingredient count="4">Iron_Ingot</ingredient>
+        <tile display="Anvil">AnvilO</tile>
+        <result count="1" display="Iron_AXe">Iron_Axe</result>
+    </recipe>
+
+    <recipe id="slimeium_pickaxe_recipe">
+        <ingredient count="1">Wood</ingredient>
+        <ingredient count="6">Slimeium_Ingot</ingredient>
+        <ingredient count="3">Slime</ingredient>
+        <tile display="Anvil">AnvilO</tile>
+        <result count="1" display="Slimeium_PickaXe">Slimeium_Pickaxe</result>
+    </recipe>
+    
+    <recipe id="slimeium_axe_recipe">
+        <ingredient count="1">Wood</ingredient>
+        <ingredient count="4">Slimeium_Ingot</ingredient>
+        <ingredient count="3">Slime</ingredient>
+        <tile display="Anvil">AnvilO</tile>
+        <result count="1" display="Sliemium_AXe">Slimeium_Axe</result>
+    </recipe>
+</category>
+
+
+
+<category name="Weapons" color="maroon" index="3">
+    <recipe id="wood_sword_recipe">
+        <ingredient count="1">Wood</ingredient>
+        <ingredient count="5">Plank</ingredient>
+        <tile display="Workbench">WorkbenchO</tile>
+        <result count="1">Wooden_Sword</result>
+    </recipe>
+
+    <recipe id="stone_sword_recipe">
+        <ingredient count="1">Wood</ingredient>
+        <ingredient count="5">Stone</ingredient>
+        <tile display="Workbench">WorkbenchO</tile>
+        <result count="1">Stone_Sword</result>
+    </recipe>
+
+    <recipe id="iron_sword_recipe" color="pink">
+        <ingredient count="1">Wood</ingredient>
+        <ingredient count="5">Iron_Ingot</ingredient>
+        <tile display="Anvil">AnvilO</tile>
+        <result count="1">Iron_Sword</result>
+    </recipe>
+
+    <recipe id="slimeium_sword_recipe">
+        <ingredient count="1">Wood</ingredient>
+        <ingredient count="5">Slimeium_Ingot</ingredient>
+        <ingredient count="3">Slime</ingredient>
+        <tile display="Anvil">AnvilO</tile>
+        <result count="1">Slimeium_Sword</result>
+    </recipe>
+
+    <recipe id="magic_staff_recipe">
+        <ingredient count="2">Wood</ingredient>
+        <ingredient count="3">Mana_Crystal</ingredient>
+        <tile display="Workbench">WorkbenchO</tile>
+        <result count="1">Magic_Staff</result>
+    </recipe>
+</category>
+
+
+
+<category name="Crafting Stations" color="turquoise" index="4">
+    <recipe id="workbench_recipe">
+        <ingredient count="4">Wood</ingredient>
+        <ingredient count="4">Plank</ingredient>
+        <result count="1">Workbench</result>
+    </recipe>
+
+    <recipe id="dark_workbench_recipe">
+        <ingredient count="1">Workbench</ingredient>
+        <ingredient count="10">Rotten_Flesh</ingredient>
+        <ingredient count="10">Slime</ingredient>
+        <ingredient count="1">Dark_Cactus_Flower</ingredient>
+        <tile display="Workbench">WorkbenchO</tile>
+        <result count="1">Dark_Workbench</result>
+    </recipe>
+
+    <recipe id="furnace_recipe">
+        <ingredient count="10">Stone</ingredient>
+        <tile display="Workbench">WorkbenchO</tile>
+        <result count="1">Furnace</result>
+    </recipe>
+    
+    <recipe id="anvil_recipe">
+        <ingredient count="1">Workbench</ingredient>
+        <ingredient count="8">Iron_Ingot</ingredient>
+        <tile display="Workbench">WorkbenchO</tile>
+        <result count="1">Anvil</result>
+    </recipe>
+</category>
+
+
+
+<category name="Misc" color="thistle" index="5">
+    <recipe id="slime_spawner_recipe">
+        <ingredient count="10">Slime</ingredient>
+        <ingredient count="5">Slimeium_Ingot</ingredient>
+        <tile display="Dark_Workbench">Dark_WorkbenchO</tile>
+        <result count="1">Slime_Spawner</result>
+    </recipe>
+
+    <recipe id="enchanted_zombie_spawner_recipe">
+        <ingredient count="5">Mana_Crystal</ingredient>
+        <ingredient count="35">Rotten_Flesh</ingredient>
+        <ingredient count="5">Iron_Ingot</ingredient>
+        <tile display="Dark_Workbench">Dark_WorkbenchO</tile>
+        <result count="1">Enchanted_Zombie_Spawner</result>
+    </recipe>
+
+    <recipe id="dark_cactus_flower_recipe">
+        <ingredient count="1">Cactus_Flower</ingredient>
+        <tile display="Dark_Workbench">Dark_WorkbenchO</tile>
+        <result count="1">Dark_Cactus_Flower</result>
+    </recipe>
+
+    <recipe id="slime_crown_recipe">
+        <ingredient count="4">Slimeium_Ingot</ingredient>
+        <ingredient count="10">Slime</ingredient>
+        <tile display="Dark_Workbench">Dark_WorkbenchO</tile>
+        <result count="1">Slime_Crown</result>
+    </recipe>
+</category>
