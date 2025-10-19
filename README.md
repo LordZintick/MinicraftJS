@@ -1,6 +1,5 @@
 # MinicraftJS
 A remake of Minicraft made completely in the Construct game engine.<br>
-See the releases page for Windows and Linux builds, as well as the .c3p file if anyone is interested in modifying it.<br>
 Includes world creation and saving; an object damage and resource collection system; inventory and crafting; tools, weapons, enemies, and bosses; and multiplayer.<br>
 The game is automatically cached in the browser cache, so after opening it the first time, you can continue playing it even if you don't have internet. Multiplayer functionality requires internet, though. <br>
 Mobile & Gamepad support is coming soon, and a wiki is in progress.<br>
