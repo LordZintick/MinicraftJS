@@ -1,7 +1,7 @@
 {
 	"name": "MinicraftJS",
 	"short_name": "MinicraftJS",
-	"description": "",
+	"description": "A remake of Notch's Ludum Dare 22 Entry made entirely using the Construct Game Engine",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "landscape",

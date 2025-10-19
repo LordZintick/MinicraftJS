@@ -61,42 +61,42 @@
         <ingredient count="1">Wood</ingredient>
         <ingredient count="6">Plank</ingredient>
         <tile display="Workbench">WorkbenchO</tile>
-        <result count="1" display="Wooden_PickaXe">Wooden_Pickaxe</result>
+        <result count="1">Wooden_Pickaxe</result>
     </recipe>
 
     <recipe id="wood_axe_recipe">
         <ingredient count="1">Wood</ingredient>
         <ingredient count="4">Plank</ingredient>
         <tile display="Workbench">WorkbenchO</tile>
-        <result count="1" display="Wooden_AXe">Wooden_Axe</result>
+        <result count="1">Wooden_Axe</result>
     </recipe>
     
     <recipe id="stone_pickaxe_recipe">
         <ingredient count="1">Wood</ingredient>
         <ingredient count="6">Stone</ingredient>
         <tile display="Workbench">WorkbenchO</tile>
-        <result count="1" display="Stone_PickaXe">Stone_Pickaxe</result>
+        <result count="1">Stone_Pickaxe</result>
     </recipe>
 
     <recipe id="stone_axe_recipe">
         <ingredient count="1">Wood</ingredient>
         <ingredient count="4">Stone</ingredient>
         <tile display="Workbench">WorkbenchO</tile>
-        <result count="1" display="Stone_AXe">Stone_Axe</result>
+        <result count="1">Stone_Axe</result>
     </recipe>
 
     <recipe id="iron_pickaxe_recipe">
         <ingredient count="1">Wood</ingredient>
         <ingredient count="6">Iron_Ingot</ingredient>
         <tile display="Anvil">AnvilO</tile>
-        <result count="1" display="Iron_PickaXe">Iron_Pickaxe</result>
+        <result count="1">Iron_Pickaxe</result>
     </recipe>
     
     <recipe id="iron_axe_recipe">
         <ingredient count="1">Wood</ingredient>
         <ingredient count="4">Iron_Ingot</ingredient>
         <tile display="Anvil">AnvilO</tile>
-        <result count="1" display="Iron_AXe">Iron_Axe</result>
+        <result count="1">Iron_Axe</result>
     </recipe>
 
     <recipe id="slimeium_pickaxe_recipe">
@@ -104,7 +104,7 @@
         <ingredient count="6">Slimeium_Ingot</ingredient>
         <ingredient count="3">Slime</ingredient>
         <tile display="Anvil">AnvilO</tile>
-        <result count="1" display="Slimeium_PickaXe">Slimeium_Pickaxe</result>
+        <result count="1">Slimeium_Pickaxe</result>
     </recipe>
     
     <recipe id="slimeium_axe_recipe">
@@ -112,7 +112,21 @@
         <ingredient count="4">Slimeium_Ingot</ingredient>
         <ingredient count="3">Slime</ingredient>
         <tile display="Anvil">AnvilO</tile>
-        <result count="1" display="Sliemium_AXe">Slimeium_Axe</result>
+        <result count="1">Slimeium_Axe</result>
+    </recipe>
+
+    <recipe id="spectral_pickaxe_recipe">
+        <ingredient count="1">Slimeium_Pickaxe</ingredient>
+        <ingredient count="5">Azure_Essence</ingredient>
+        <tile display="Anvil">AnvilO</tile>
+        <result count="1">Spectral_Pickaxe</result>
+    </recipe>
+    
+    <recipe id="spectral_axe_recipe">
+        <ingredient count="1">Slimeium_Axe</ingredient>
+        <ingredient count="5">Azure_Essence</ingredient>
+        <tile display="Anvil">AnvilO</tile>
+        <result count="1">Spectral_Axe</result>
     </recipe>
 </category>
 
