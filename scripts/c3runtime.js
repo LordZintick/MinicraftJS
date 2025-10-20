@@ -1528,7 +1528,10 @@ self.C3_ExpressionFuncs = [
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			const f1 = p._GetNode(1).GetBoundMethod();
-			return () => f0(50, (f1() - 49));
+			const f2 = p._GetNode(2).GetBoundMethod();
+			const f3 = p._GetNode(3).GetBoundMethod();
+			const f4 = p._GetNode(4).GetBoundMethod();
+			return () => f0((((f1() / 2) - f2()) + 50), (((f3() / 2) + f4()) - 50));
 		},
 		p => {
 			const n0 = p._GetNode(0);
@@ -1672,6 +1675,16 @@ self.C3_ExpressionFuncs = [
 			const n2 = p._GetNode(2);
 			return () => f0(f1(n2.ExpInstVar_Family(), 2, ":"));
 		},
+		() => "Tiny",
+		() => 1408,
+		() => "Small",
+		() => 2816,
+		() => "Normal",
+		() => 4224,
+		() => "Large",
+		() => 5632,
+		() => "Huge",
+		() => 7040,
 		() => "Signaling",
 		() => "Started multiplayer world",
 		() => "green",
@@ -2111,6 +2124,28 @@ self.C3_ExpressionFuncs = [
 			const n3 = p._GetNode(3);
 			return () => and(and(n0.ExpObject(n1.ExpObject(2)), ","), n2.ExpObject(n3.ExpObject(2)));
 		},
+		() => "x",
+		() => "y",
+		p => {
+			const f0 = p._GetNode(0).GetBoundMethod();
+			return () => f0("x");
+		},
+		p => {
+			const f0 = p._GetNode(0).GetBoundMethod();
+			return () => f0("y");
+		},
+		p => {
+			const n0 = p._GetNode(0);
+			const n1 = p._GetNode(1);
+			const f2 = p._GetNode(2).GetBoundMethod();
+			return () => (n0.ExpObject(n1.ExpObject(2)) + f2("x"));
+		},
+		p => {
+			const n0 = p._GetNode(0);
+			const n1 = p._GetNode(1);
+			const f2 = p._GetNode(2).GetBoundMethod();
+			return () => (n0.ExpObject(n1.ExpObject(2)) + f2("y"));
+		},
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			const n1 = p._GetNode(1);
@@ -2340,11 +2375,15 @@ self.C3_ExpressionFuncs = [
 			const v2 = p._GetNode(2).GetVar();
 			return () => (1 - (0.03 - (Math.abs((f0(v1.GetValue(), v2.GetValue()) - 0.5)) / 15)));
 		},
+		() => "Desert",
+		() => "Winter",
 		() => "OakTree",
 		() => 17,
 		() => "FloweringCactus",
 		() => "CactusO",
 		() => "SpruceTree",
+		() => "Cave",
+		() => "RockwoodTree",
 		() => 0.3,
 		() => "Snow",
 		() => 0.6,
@@ -2679,6 +2718,20 @@ self.C3_ExpressionFuncs = [
 		},
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
+			const f1 = p._GetNode(1).GetBoundMethod();
+			const f2 = p._GetNode(2).GetBoundMethod();
+			const f3 = p._GetNode(3).GetBoundMethod();
+			return () => (f0(f1(f2(), 0, ",")) + f3("x"));
+		},
+		p => {
+			const f0 = p._GetNode(0).GetBoundMethod();
+			const f1 = p._GetNode(1).GetBoundMethod();
+			const f2 = p._GetNode(2).GetBoundMethod();
+			const f3 = p._GetNode(3).GetBoundMethod();
+			return () => (f0(f1(f2(), 1, ",")) + f3("y"));
+		},
+		p => {
+			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0(2);
 		},
 		p => {
@@ -2719,6 +2772,8 @@ self.C3_ExpressionFuncs = [
 		() => "Started singleplayer world",
 		() => 600,
 		() => "name",
+		() => "size",
+		() => "type",
 		() => "{\"worlds\": {}}",
 		p => {
 			const v0 = p._GetNode(0).GetVar();
