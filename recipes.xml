@@ -21,7 +21,21 @@
 
 
 
-<category name="Consumables" color="lime" index="1">
+<category name="Building" color="brown" index="1">
+    <recipe id="wood_flooring_recipe">
+        <ingredient count="1">Plank</ingredient>
+        <result count="1">Wood_Floor</result>
+    </recipe>
+
+    <recipe id="wood_wall_recipe">
+        <ingredient count="1">Plank</ingredient>
+        <result count="1">Wood_Wall</result>
+    </recipe>
+</category>
+
+
+
+<category name="Consumables" color="lime" index="2">
     <recipe id="cactubread_recipe">
         <ingredient count="10">Cactus</ingredient>
         <result count="2">CactuBread</result>
@@ -56,7 +70,7 @@
 
 
 
-<category name="Tools" color="pink" index="2">
+<category name="Tools" color="pink" index="3">
     <recipe id="wood_pickaxe_recipe">
         <ingredient count="1">Wood</ingredient>
         <ingredient count="6">Plank</ingredient>
@@ -132,7 +146,7 @@
 
 
 
-<category name="Weapons" color="maroon" index="3">
+<category name="Weapons" color="maroon" index="4">
     <recipe id="wood_sword_recipe">
         <ingredient count="1">Wood</ingredient>
         <ingredient count="5">Plank</ingredient>
@@ -172,7 +186,7 @@
 
 
 
-<category name="Crafting Stations" color="turquoise" index="4">
+<category name="Furniture" color="turquoise" index="5">
     <recipe id="workbench_recipe">
         <ingredient count="4">Wood</ingredient>
         <ingredient count="4">Plank</ingredient>
@@ -204,7 +218,7 @@
 
 
 
-<category name="Misc" color="thistle" index="5">
+<category name="Misc" color="thistle" index="6">
     <recipe id="slime_spawner_recipe">
         <ingredient count="10">Slime</ingredient>
         <ingredient count="5">Slimeium_Ingot</ingredient>
